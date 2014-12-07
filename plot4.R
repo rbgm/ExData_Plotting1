@@ -60,7 +60,7 @@ legend("topright", col = c("black", "red", "blue"), lty = c(1,1,1), cex = 0.9,
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), bty = "n")
 
 
-## Fourth plot
+## Fourth plot 
 plot(data1$Date_time, data1$Global_reactive_power, type = "l",  
      xlab = "datetime", ylab="Global_reactive_power")
 
